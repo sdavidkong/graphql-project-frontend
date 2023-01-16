@@ -21,7 +21,3 @@ const BookList = () => {
     </div>
   );
 };
-
-export default function BookListQuery() {
-  return useQuery(getBooksQuery)(BookList);
-}
